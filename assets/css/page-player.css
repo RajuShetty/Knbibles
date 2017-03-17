@@ -67,7 +67,7 @@ ul.playlist li {
 	padding-right:5px;
 	border:none;
 	/* letter-spacing:-1px; ZOMG WEB X.0. ;) */
-	background-color:#F3F1EB;
+	background-color:#03A9F4;
 	-webkit-border-radius:5px;
 	-moz-border-radius:5px;
 	border-radius:5px;
@@ -88,7 +88,7 @@ ul.playlist li a {
  display:block;
  text-decoration:none;
  font-weight:normal;
- color:#333;
+ color:#ffffff;
  font-size:100%;
  outline:none;
  position:relative;
@@ -103,7 +103,7 @@ ul.playlist li.sm2_playing a {
 }
 
 ul.playlist li:hover {
-	background-color:#EFEDE4;
+	background-color:#B3E5FC;
 	-webkit-box-shadow: 0px 1px 1px rgba(0,0,0,.4);
 	-moz-box-shadow: 0px 1px 1px rgba(0,0,0,.4);
 	box-shadow: 0px 1px 1px rgba(0,0,0,.4);
@@ -115,11 +115,11 @@ ul.playlist li:hover a {
 
 ul.playlist li.sm2_playing,
 ul.playlist li.sm2_playing:hover {
-	background:#cbc0a9 url(../img/audio-pause.png) no-repeat 10px 50%;
+	background:#B3E5FC url(../img/audio-pause.png) no-repeat 10px 50%;
 }
 
 ul.playlist li.sm2_paused {
-	background:#E2DCCF url(../img/audio-play.png) no-repeat 10px 50%;
+	background:#03A9F4 url(../img/audio-play.png) no-repeat 10px 50%;
 }
 
 ul.playlist li.sm2_playing:hover a,

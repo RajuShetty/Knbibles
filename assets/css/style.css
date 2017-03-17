@@ -89,7 +89,7 @@ margin-top: 3px !important;
 }
 .verse {
 	font-weight: bold;
-	color: #D2B48C;
+	color:#fba3cb;
 	font-size: 80%;
 	font-style: italic;
 	/* [disabled]vertical-align: super; */
@@ -279,7 +279,7 @@ blockquote {
     padding-left: 15px;    
 } 
 
-span.c1 {color: red; font-size: 120%}
+span.c1 {color: #FF4081; font-size: 120%}
 
 .rslides {
   position: relative;
