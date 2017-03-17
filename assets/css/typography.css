@@ -154,7 +154,7 @@
 	color:#555;
 	}
 
-	strong, b { font-weight:bold; color:#d93d76;}
+	strong, b { font-weight:bold; color:#f96868;}
 
 	em, i { font-style:italic; color:#4e4e4e;}
 
@@ -226,7 +226,7 @@
 	/*--- Links ----------------------------------------------------------------------------------------- */
 
 	a {
-	color:#3dadd9;
+	color:#62a8ea;
 	background:transparent;
 	text-decoration:none;
 	}

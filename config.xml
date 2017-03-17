@@ -1,4 +1,4 @@
-<widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="org.loc.kannadabible" version="1.0.2" android-versionCode="10002">
+<widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="org.loc.kannadabible" version="1.0.3" android-versionCode="10003">
   <name>Kannada Bible</name>
   <description>Different versions of Kannada Bibles with Audio and Text </description>
   <author href="http://freechurchwebsite.org/" email="rajushetty.b@gmail.com">Law of Christ Ministries</author>
@@ -11,7 +11,7 @@
   <preference name="android-build-tool" value="gradle" />
   
     <!-- You can comment out features you aren't using -->
-    <gap:plugin name="cordova-plugin-statusbar" source="npm" spec="2.1.3" />
+    <gap:plugin name="cordova-plugin-statusbar" source="npm" spec="2.1.3" /> 
     <preference name="StatusBarOverlaysWebView" value="false" />
     <preference name="StatusBarBackgroundColor" value="#000000" />
     <preference name="StatusBarStyle" value="lightcontent" />
