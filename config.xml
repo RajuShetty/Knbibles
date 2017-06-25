@@ -1,5 +1,5 @@
 <widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="org.loc.kannadabible" 
-version="1.0.8" 
+version="1.0.9" 
 android-versionCode="10008">
   <name>Kannada Bible</name>
   <description>Different versions of Kannada Bibles with Audio and Text </description>
