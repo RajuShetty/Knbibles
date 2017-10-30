@@ -1,6 +1,6 @@
 <widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="org.loc.kannadabible" 
-version="1.1.0" 
-android-versionCode="10010">
+version="1.1.1" 
+android-versionCode="10011">
   <name>Kannada Bible</name>
   <description>Different versions of Kannada Bibles with Audio and Text </description>
   <author href="http://freechurchwebsite.org/" email="rajushetty.b@gmail.com">Law of Christ Ministries</author>
@@ -8,8 +8,12 @@ android-versionCode="10010">
   <preference name="DisallowOverscroll" value="true"/>
   <preference name="android-minSdkVersion" value="14"/>
   
-  <gap:plugin name="pushbots-cordova-plugin" spec="^1.4.0" source="npm" />
-   <preference name="phonegap-version" value="cli-6.5.0" />
+  <!-- one signal push -->
+	<gap:plugin name="onesignal-cordova-plugin" spec="^2.1.1" source="npm" />
+<!-- Requires cli-6.4.0 but we recommend using the latest version. -->
+<preference name="phonegap-version" value="cli-7.0.1" />
+	<!-- one signal push End -->
+  
   <preference name="android-build-tool" value="gradle" />
   <gap:plugin name="cordova-plugin-admobpro" source="npm" />
   
