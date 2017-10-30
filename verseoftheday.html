@@ -18,9 +18,36 @@
     <link rel="stylesheet" href="css/swipebox.min.css">
     <link rel="stylesheet" href="css/style.css">
 	
+	<script type="text/javascript">
+
+function img()
+{
+var firstJan = Math.floor((new Date().setFullYear(new Date().getFullYear(),0,1))/86400000);
+var today = Math.ceil((new Date().getTime())/86400000);
+var dayOfYear = today-firstJan;
+
+var bgdImage;
+if((dayOfYear+'').length == 1)
+bgdImage = '00'+dayOfYear+'.png';
+else if((dayOfYear+'').length == 2)
+bgdImage = '0'+dayOfYear+'.png';
+else
+bgdImage = dayOfYear+'.png';
+bgdImage = "http://kannadachristiansongs.in/KannadaBibles/" + bgdImage;
+alert(bgdImage);
+document.getElementById('quoteoftheday').src = bgdImage;
+}
+
+function shareQuote() {
+    var imageUrl = document.getElementById("quotelan1").src;
+    window.plugins.socialsharing.share('ದೈನಂದಿನ ದೇವರ ವಾಕ್ಯಕ್ಕಾಗಿ  ಕನ್ನಡ ಬೈಬಲ್ ಮೊಬೈಲ್ ಅಪ್ಲಿಕೇಶನ್ ಅನ್ನು ಡೌನ್ಲೋಡ್ ಮಾಡಿ.', null, imageUrl, 'https://goo.gl/7K0ePg')
+}
+</script>
+
+	
   </head>
 
-  <body>
+  <body onload="javascript:img();">
     <div class="animsition">
      
       <!-- Header -->
@@ -85,8 +112,10 @@
         <main class="mdl-layout__content">
 		<h3> ಈ ದಿನದ ದೇವರ ವಾಕ್ಯ </h3>
           <div class="profile-image" >
-            <img src="http://kannadachristiansongs.in/KannadaBibles/verseoftheday.png" alt="ಇಮೇಜ್  ಡೌನ್ಲೋಡ್ ಮಾಡಲು ಇಂಟರ್ನೆಟ್ ಕನೆಕ್ಷನ್ ಸಿಗುತ್ತಿಲ್ಲ" id="imgID"> 
-			<button class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button--colored" onclick="window.plugins.socialsharing.share('ದೈನಂದಿನ ದೇವರ ವಾಕ್ಯಕ್ಕಾಗಿ  ಕನ್ನಡ ಬೈಬಲ್ ಮೊಬೈಲ್ ಅಪ್ಲಿಕೇಶನ್ ಅನ್ನು ಡೌನ್ಲೋಡ್ ಮಾಡಿ.', null, 'http://kannadachristiansongs.in/KannadaBibles/verseoftheday.png', 'https://goo.gl/7K0ePg')">  
+            <img alt="ಇಮೇಜ್  ಡೌನ್ಲೋಡ್ ಮಾಡಲು ಇಂಟರ್ನೆಟ್ ಕನೆಕ್ಷನ್ ಸಿಗುತ್ತಿಲ್ಲ" id="quoteoftheday"> 
+			<button class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button--colored"
+    onclick="shareQuote()">
+			<!--<button class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button--colored" onclick="window.plugins.socialsharing.share('ದೈನಂದಿನ ದೇವರ ವಾಕ್ಯಕ್ಕಾಗಿ  ಕನ್ನಡ ಬೈಬಲ್ ಮೊಬೈಲ್ ಅಪ್ಲಿಕೇಶನ್ ಅನ್ನು ಡೌನ್ಲೋಡ್ ಮಾಡಿ.', null, 'http://kannadachristiansongs.in/KannadaBibles/verseoftheday.png', 'https://goo.gl/7K0ePg')">  -->
             <i class="material-icons white">share</i> 
             </button> 
           </div>
