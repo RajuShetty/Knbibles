@@ -33,14 +33,22 @@ else if((dayOfYear+'').length == 2)
 bgdImage = '0'+dayOfYear+'.png';
 else
 bgdImage = dayOfYear+'.png';
-bgdImage = "http://kannadachristiansongs.in/KannadaBibles/" + bgdImage;
-alert(bgdImage);
-document.getElementById('quotelan1').src = bgdImage;
+bgdImage1 = "http://kannadachristiansongs.in/KannadaBibles/kannada/" + bgdImage;
+alert(bgdImage1);
+document.getElementById('quotelan1').src = bgdImage1;
+bgdImage2 = "http://kannadachristiansongs.in/KannadaBibles/english/" + bgdImage;
+alert(bgdImage2);
+document.getElementById('quotelan2').src = bgdImage2;
+
 }
 
-function shareQuote() {
+function shareQuote1() {
     var imageUrl = document.getElementById("quotelan1").src;
     window.plugins.socialsharing.share('ದೈನಂದಿನ ದೇವರ ವಾಕ್ಯಕ್ಕಾಗಿ  ಕನ್ನಡ ಬೈಬಲ್ ಮೊಬೈಲ್ ಅಪ್ಲಿಕೇಶನ್ ಅನ್ನು ಡೌನ್ಲೋಡ್ ಮಾಡಿ.', null, imageUrl, 'https://goo.gl/7K0ePg')
+}
+function shareQuote2() {
+    var imageUrl = document.getElementById("quotelan1").src;
+    window.plugins.socialsharing.share('Install Kannada Bibles App to get Daily Bible verse designed on a beatiful image.', null, imageUrl, 'https://goo.gl/7K0ePg')
 }
 </script>
 
@@ -114,7 +122,7 @@ function shareQuote() {
           <div class="profile-image" >
             <img alt="ಇಮೇಜ್  ಡೌನ್ಲೋಡ್ ಮಾಡಲು ಇಂಟರ್ನೆಟ್ ಕನೆಕ್ಷನ್ ಸಿಗುತ್ತಿಲ್ಲ" id="quotelan1"> 
 			<button class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button--colored"
-    onclick="shareQuote()">
+    onclick="shareQuote1()">
 			<!--<button class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button--colored" onclick="window.plugins.socialsharing.share('ದೈನಂದಿನ ದೇವರ ವಾಕ್ಯಕ್ಕಾಗಿ  ಕನ್ನಡ ಬೈಬಲ್ ಮೊಬೈಲ್ ಅಪ್ಲಿಕೇಶನ್ ಅನ್ನು ಡೌನ್ಲೋಡ್ ಮಾಡಿ.', null, 'http://kannadachristiansongs.in/KannadaBibles/verseoftheday.png', 'https://goo.gl/7K0ePg')">  -->
             <i class="material-icons white">share</i> 
             </button> 
@@ -127,8 +135,8 @@ function shareQuote() {
 		  <br/>
 		  <h3> Daily Bible Verse</h3>
 		  <div class="profile-image"> 
-            <img src="http://kannadachristiansongs.in/KannadaBibles/verseofthedayen.png" alt=" ಇಮೇಜ್  ಡೌನ್ಲೋಡ್ ಮಾಡಲು ಇಂಟರ್ನೆಟ್ ಕನೆಕ್ಷನ್ ಸಿಗುತ್ತಿಲ್ಲ" id="imgIDe"> 
-			<button class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button--colored" onclick="window.plugins.socialsharing.share('Install Kannada Bibles App to get Daily Bible verse designed on a beatiful image.', null, 'http://kannadachristiansongs.in/KannadaBibles/verseofthedayen.png', 'https://goo.gl/7K0ePg')">  
+            <img alt=" ಇಮೇಜ್  ಡೌನ್ಲೋಡ್ ಮಾಡಲು ಇಂಟರ್ನೆಟ್ ಕನೆಕ್ಷನ್ ಸಿಗುತ್ತಿಲ್ಲ" id="quotelan2"> 
+			<button class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button--colored" onclick="shareQuote2()">  
             <i class="material-icons white">share</i> 
             </button> 
           </div>
