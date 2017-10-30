@@ -6,7 +6,7 @@ android-versionCode="10011">
   <author href="http://freechurchwebsite.org/" email="rajushetty.b@gmail.com">Law of Christ Ministries</author>
   <content src="index.html"/>
   <preference name="DisallowOverscroll" value="true"/>
-  <preference name="android-minSdkVersion" value="14"/>
+  <preference name="android-minSdkVersion" value="19"/>
   
   <!-- one signal push -->
 	<gap:plugin name="onesignal-cordova-plugin" spec="^2.1.1" source="npm" />
