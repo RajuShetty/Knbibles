@@ -154,7 +154,7 @@
 	color:#555;
 	}
 
-	strong, b { font-weight:bold; color:#f96868;}
+	strong, b { font-weight:bold; color:#f96868; display:none;}
 
 	em, i { font-style:italic; color:#4e4e4e;}
 
