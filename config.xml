@@ -7,7 +7,7 @@ android-versionCode="10015">
   <content src="index.html"/>
   
   <!-- one signal push -->
-	<gap:plugin name="onesignal-cordova-plugin" spec="^2.1.1" source="npm" />
+ <!-- 	<gap:plugin name="onesignal-cordova-plugin" spec="^2.1.1" source="npm" /> -->
 <!-- Requires cli-6.4.0 but we recommend using the latest version. -->
 <preference name="phonegap-version" value="cli-8.0.0" />
 
