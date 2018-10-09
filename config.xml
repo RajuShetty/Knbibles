@@ -18,6 +18,7 @@ android-versionCode="10015">
   
   <preference name="DisallowOverscroll" value="true"/>
   <gap:plugin name="cordova-plugin-admobpro" source="npm" />
+  <framework src="com.google.android.gms:play-services-ads:+" />
   
     <!-- You can comment out features you aren't using -->
 	<gap:plugin name="cordova-plugin-x-socialsharing" source="npm" />
