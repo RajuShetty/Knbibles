@@ -12,7 +12,7 @@ android-versionCode="10015">
 <preference name="phonegap-version" value="cli-8.0.0" />
 
 <preference name="android-build-tool" value="gradle" />
-<preference name="android-minSdkVersion" value="16" />
+<preference name="android-minSdkVersion" value="19" />
 
 	<!-- one signal push End -->
   
@@ -42,7 +42,7 @@ android-versionCode="10015">
 
    
    
-    <gap:plugin name="cordova-plugin-whitelist" source="npm" spec="1.2.2" />
+    <!-- <gap:plugin name="cordova-plugin-whitelist" source="npm" spec="1.2.2" /> -->
     <gap:plugin name="cordova-plugin-device" source="npm" spec="1.1.2" />   
     <gap:plugin name="cordova-plugin-dialogs" source="npm" spec="1.2.1" />
     <gap:plugin name="cordova-plugin-geolocation" source="npm" spec="2.2.0" />
