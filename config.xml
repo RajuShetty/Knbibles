@@ -6,8 +6,8 @@ android-versionCode="10015">
   <author href="http://freechurchwebsite.org/" email="rajushetty.b@gmail.com">Law of Christ Ministries</author>
   <content src="index.html"/>
   
-  <!-- one signal push 
-<gap:plugin name="onesignal-cordova-plugin" spec="^2.4.1" source="npm" />-->
+  <!-- one signal push -->
+<gap:plugin name="onesignal-cordova-plugin" spec="^2.4.1" source="npm" />
 <!-- Requires cli-8.0.0 but we recommend using the latest version. -->
 <preference name="phonegap-version" value="cli-8.0.0" />
 
