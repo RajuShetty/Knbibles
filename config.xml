@@ -1,6 +1,6 @@
 <widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="org.loc.kannadabible" 
 version="3" 
-android-versionCode="10015">
+android-versionCode="10016">
   <name>Kannada Bible</name>
   <description>Different versions of Kannada Bibles with Audio and Text </description>
   <author href="http://freechurchwebsite.org/" email="rajushetty.b@gmail.com">Law of Christ Ministries</author>
