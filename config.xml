@@ -2,7 +2,7 @@
 version="0" 
 android-versionCode="10000">
   <name>Kannada Bibles</name>
-  <description>Different versions of Kannada Bibles with Audio and Text </description>
+  <description>Kannada Bibles with Audio and Text in many versions  </description>
   <author href="http://freechurchwebsite.org/" email="rajushetty.b@gmail.com">Law of Christ Ministries</author>
   <content src="index.html"/>
   
