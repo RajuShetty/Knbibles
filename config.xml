@@ -3,7 +3,7 @@ version="0"
 android-versionCode="10000">
   <name>Kannada Bibles</name>
   <description>Kannada Bibles with Audio and Text in many versions  </description>
-  <author href="http://freechurchwebsite.org/" email="rajushetty.b@gmail.com">King's web Solutions</author>
+  <author href="http://freechurchwebsite.org/" email="kingsappskannada@gmail.com">King's web Solutions</author>
   <content src="index.html"/>
   
   <!-- one signal push -->
