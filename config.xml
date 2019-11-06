@@ -1,6 +1,6 @@
 <widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="kannadabibles.app" 
-version="0" 
-android-versionCode="10000">
+version="1" 
+android-versionCode="10001">
   <name>Kannada Bibles</name>
   <description>Kannada Bibles with Audio and Text in many versions  </description>
   <author href="http://freechurchwebsite.org/" email="kingsappskannada@gmail.com">King's web Solutions</author>
@@ -9,10 +9,11 @@ android-versionCode="10000">
   <!-- one signal push -->
 <gap:plugin name="onesignal-cordova-plugin" spec="^2.4.1" source="npm" />
 <!-- Requires cli-8.0.0 but we recommend using the latest version. -->
-<preference name="phonegap-version" value="cli-8.0.0" />
+<preference name="phonegap-version" value="cli-9.0.0" />
 
 <preference name="android-build-tool" value="gradle" />
 <preference name="android-minSdkVersion" value="19" />
+<preference name="android-targetSdkVersion" value="28" />
 
 	<!-- one signal push End -->
   
