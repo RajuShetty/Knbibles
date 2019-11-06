@@ -3,6 +3,7 @@ var admobid = {};
 // TODO: replace the following ad units with your own
 if( /(android)/i.test(navigator.userAgent) ) {
   admobid = { // for Android
+    ADMOB_APP_ID: 'ca-app-pub-3405799707672400~2481488026',
     banner: '',
     interstitial: 'ca-app-pub-3405799707672400/8440391719',
     rewardvideo: 'ca-app-pub-3405799707672400/1856222945',
