@@ -18,7 +18,9 @@ android-versionCode="10001">
 	<!-- one signal push End -->
   
   <preference name="DisallowOverscroll" value="true"/>
-  <gap:plugin name="cordova-plugin-admobpro" source="npm" />
+  <plugin name="cordova-plugin-admobpro" source="npm">
+<variable name="PLAY_SERVICES_VERSION" value="16.0.0" />
+</plugin>
   <framework src="com.google.android.gms:play-services-ads:+" />
   
     <!-- You can comment out features you aren't using -->
